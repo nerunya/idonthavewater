@@ -1,4 +1,4 @@
-name: auto_jandi
+name: watering
 
 on:
   schedule:
