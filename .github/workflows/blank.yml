@@ -19,7 +19,7 @@ jobs:
           git config --global user.name 'imneko0'
           git config --global user.email 'neko@imnya.ng'
           git add alternative_water.log
-          git commit -m "🌊 Watering Updated on $(date +'%Y-%m-%d')"
+          git commit -m $'🌊 Watering Updated on $(date +'%Y-%m-%d')\n\nCo-authored-by: Linus Torvalds <torvalds@linux-foundation.org>'
 
       - uses: ad-m/github-push-action@v0.6.0
         with:
