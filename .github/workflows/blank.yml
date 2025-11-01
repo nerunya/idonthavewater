@@ -17,7 +17,7 @@ jobs:
 
       - run: |
           git config --global user.name 'nerunya'
-          git config --global user.email 'neko@imnya.ng'
+          git config --global user.email 'nerunyaa@icloud.com'
           git add alternative_water.log
           echo -e "🌊 Watering Updated on $(date +'%Y-%m-%d')\n\nCo-authored-by: Linus Torvalds <torvalds@linux-foundation.org>" | git commit -F -
 
